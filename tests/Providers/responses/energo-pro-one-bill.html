@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+    <base href="https://www.energo-pro.bg/">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <title>Ïðîâåðêà íà ñìåòêà çà åëåêòðîåíåðãèÿ - Áèòîâè êëèåíòè - Êëèåíòè - ÅÍÅÐÃÎ-ÏÐÎ</title>
+    <meta http-equiv="Description" content="">
+    <meta http-equiv="Keywords" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        @import url(extra/style.css?k=11);
+        @import url(extra/jquery.fancybox-1.3.4.css?k=5);
+    </style>
+    <!--[if lt IE 7]>
+        <style>
+            div.press{
+                margin-bottom: 30px;
+            }
+            #wrap {
+                height: 100%;
+            }
+            .png {
+                    behavior:expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "img/blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true));
+            }
+        </style>
+    <![endif]-->
+    <!--[if lt IE 8]>
+        <style>
+            #jsddm li ul li{
+                width: 200px;
+            }
+        </style>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <style>
+            .rounded, ul.submenu { behavior: url("js/PIE.htc"); position: relative; z-index: 100; }
+            p#hidden_logotxt{ behavior: url("extra/PIE.htc"); z-index: 100; }
+        </style>
+    <![endif]-->
+    <script type="text/javascript" src="extra/jquery-1.7.2.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="extra/jquery-ui-1.10.0.custom.min.js"></script>
+    <script type="text/javascript" src="extra/jquery.fancybox-1.3.4.pack.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a.fancybox").fancybox({
+            });
+        });
+    </script>
+    <script language="JavaScript" type="text/javascript">
+        var timeout    = 500;
+        var closetimer = 0;
+        var ddmenuitem = 0;
+
+        function jsddm_open()
+        {  jsddm_canceltimer();
+           jsddm_close();
+           ddmenuitem = $(this).find('ul').css('visibility', 'visible');}
+
+        function jsddm_close()
+        {  if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+        function jsddm_timer()
+        {  closetimer = window.setTimeout(jsddm_close, timeout);}
+
+        function jsddm_canceltimer()
+        {  if(closetimer)
+           {  window.clearTimeout(closetimer);
+              closetimer = null;}}
+
+        $(document).ready(function()
+        {  $('#jsddm > li').bind('mouseover', jsddm_open)
+           $('#jsddm > li').bind('mouseout',  jsddm_timer)});
+
+        document.onclick = jsddm_close;
+    </script>
+    <!-- OLD CODE
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33095084-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-33095084-1', 'energo-pro.bg');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+        <div id="wrap">
+            <div id="header">
+                <a href="./"><img src="img/logo_vn_bg.png" id="toplogo" class="png" alt=""></a>
+                <div id="search">
+                    <p id="lang"><a href="index.php?lang=en">English</a></p>                    <form action="search.php" method="get">
+                        <input type="Text" class="txt" name="search_q" value="Êëþ÷îâà äóìà" onClick="javascript:if(this.value=='Êëþ÷îâà äóìà')this.value='';">
+                        <input type="Image" src="img/search_bg.jpg">
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <ul id="jsddm">
+                <li><a href="./">Íà÷àëî</a></li><li class="current"><a href="bg/Klienti">Êëèåíòè</a><ul><li><a href="bg/Bitovi-Klienti">Áèòîâè êëèåíòè</a></li><li><a href="bg/Stopanski-Klienti">Ñòîïàíñêè êëèåíòè</a></li><li><a href="bg/dostavchik-posledna-instancia">Äîñòàâ÷èê îò ïîñëåäíà èíñòàíöèÿ</a></li><li><a href="bg/Zayavi-elektronna-faktura">Çàÿâè Åëåêòðîííà ôàêòóðà</a></li><li><a href="bg/kak-da-stana-klient">Êàê äà ñòàíà êëèåíò</a></li><li><a href="bg/Nashite-adresi">Íàøèòå àäðåñè</a></li><li><a href="bg/Kampanii">Êàìïàíèè</a></li></ul></li><li class=""><a href="bg/Informacia-za-nas">Èíôîðìàöèÿ çà íàñ</a><ul><li><a href="bg/profil">Ïðîôèë</a></li><li><a href="bg/Sertifikati-po-kachestvo">Ñåðòèôèêàòè íà ñèñòåìè çà óïðàâëåíèå íà êà÷åñòâîòî ISO 9001</a></li><li><a href="bg/Politiki-po-kachestvo-na-Prodajbi">Ïîëèòèêè íà ÅÍÅÐÃÎ-ÏÐÎ Ïðîäàæáè è ÅÍÅÐÃÎ-ÏÐÎ Åíåðãèéíè óñëóãè</a></li><li><a href="bg/Politiki-po-kachestvo-na-Mreji">Ïîëèòèêè íà ÅÍÅÐÃÎ-ÏÐÎ Ìðåæè</a></li><li><a href="bg/Informacia-za-investitori">Èíôîðìàöèÿ çà èíâåñòèòîðèòå</a></li></ul></li><li class=""><a href="bg/Novini">Íîâèíè</a></li><li class=""><a href="bg/Karieri">Êàðèåðè</a><ul><li><a href="bg/SvobodniRabotniMesta">Ñâîáîäíè ðàáîòíè ìåñòà</a></li><li><a href="bg/StazhantskiProgrami">Ñòàæàíòñêè ïðîãðàìè</a></li></ul></li><li class=""><a href="bg/Dopalnitelna-informaciya">Äîïúëíèòåëíà èíôîðìàöèÿ</a><ul><li><a href="bg/Dopalnitelna-informacia">Íîðìàòèâíè äîêóìåíòè</a></li><li><a href="bg/Dogovor-za-privatizacionna-prodazba-na-akcii">Äîãîâîð çà ïðèâàòèçàöèîííà ïðîäàæáà íà àêöèè</a></li><li><a href="bg/reshavane-na-sporove">Ðåøàâàíå íà ñïîðîâå</a></li><li><a href="bg/Drugi">Äðóãè</a></li></ul></li><li class=""><a href="bg/Polezno">Ïîëåçíî</a><ul><li><a href="bg/balansirane-na-kraini-klienti">Áàëàíñèðàíå íà êðàéíè êëèåíòè</a></li><li><a href="bg/systav-energien-miks">Ñúñòàâ íà åíåðãèéíèÿ ìèêñ</a></li><li><a href="bg/Saveti-za-pestene-na-energia">Ñúâåòè çà ïåñòåíå íà åíåðãèÿ</a></li></ul></li><li class=""><a href="bg/Kontakti">Êîíòàêòè</a></li>            </ul>
+            <div id="maincontent"><ul id="submenu"><li class="lvl1 expanded"><a href="bg/Bitovi-Klienti">Áèòîâè êëèåíòè</a><li class="lvl2"><a href="bg/Dejstvashti-ceni-na-elektroenergiyata-Bitovi-klienti">Äåéñòâàùè öåíè íà åëåêòðîåíåðãèÿòà</a></li><li class="lvl2"><a href="bg/Ceni-na-dopalnitelni-uslugi-Bitovi-klienti">Öåíè íà äîïúëíèòåëíè óñëóãè</a></li><li class="lvl2"><a href="bg/Obiasnenie-na-kasov-bon-i-faktura">Îáÿñíåíèå íà êàñîâ áîí è ôàêòóðà</a></li><li class="lvl2"><a href="bg/Nachini-na-plashtane-Bitovi-klienti">Íà÷èíè íà ïëàùàíå</a></li><li class="lvl2 current"><a href="bg/Proverka-na-smetka-za-elektroenergiya">Ïðîâåðêà íà ñìåòêà çà åëåêòðîåíåðãèÿ</a></li><li class="lvl2"><a href="bg/Grafik-za-plashtane-na-elektroenergia">Ãðàôèê çà ïëàùàíå íà åëåêòðîåíåðãèÿ</a></li><li class="lvl2"><a href="bg/Grafik-za-otchitane-na-elektroenergiya-Bitovi-klienti">Ãðàôèê çà îò÷èòàíå íà åëåêòðîåíåðãèÿ</a></li><li class="lvl2"><a href="bg/Obshti-usloviya-Bitovi-klienti">Îáùè óñëîâèÿ</a></li></li><li class="lvl1"><a href="bg/Stopanski-Klienti">Ñòîïàíñêè êëèåíòè</a></li><li class="lvl1"><a href="bg/dostavchik-posledna-instancia">Äîñòàâ÷èê îò ïîñëåäíà èíñòàíöèÿ</a></li><li class="lvl1"><a href="bg/Zayavi-elektronna-faktura">Çàÿâè Åëåêòðîííà ôàêòóðà</a></li><li class="lvl1"><a href="bg/kak-da-stana-klient">Êàê äà ñòàíà êëèåíò</a></li><li class="lvl1"><a href="bg/Nashite-adresi">Íàøèòå àäðåñè</a></li><li class="lvl1"><a href="bg/Kampanii">Êàìïàíèè</a></li></ul><div id="content">
+            <h1 class="cat">Ïðîâåðêà íà ñìåòêà çà åëåêòðîåíåðãèÿ</h1>
+            <p>Ìîëÿ, âúâåäåòå Âàøèÿ 10-öèôðåí êëèåíòñêè íîìåð, çà äà ïðîâåðèòå ñìåòêàòà ñè çà åëåêòðîåíåðãèÿ.<br /><br /><strong>Ìîëÿ, èìàéòå ïðåäâèä, ÷å èíôîðìàöèÿòà çà äúëæèìè ñóìè íà ñàéòà ñå àêòóàëèçèðà ïåðèîäè÷íî.</strong><br /><strong>Ïëàòåíèòå ïðåäè <strong>äàòàòà íà àêòóàëèçàöèÿòà </strong>çàäúëæåíèÿ íÿìà äà áúäàò âèäèìè êàòî äúëæèìè ñóìè.</strong><br /><br />Ïîâå÷å èíôîðìàöèÿ çà Âàøåòî ïîòðåáëåíèå, ôàêòóðà èëè ïëàùàíå, ìîæå äà ïîëó÷èòå îò íàøèòå îïåðàòîðè íà äåíîíîùíèÿ íè òåëåôîí <strong>0700 1 61 61</strong>.</p>
+<p><strong><a href="bg/Nachini-na-plashtane-Bitovi-klienti" target="_blank">Êàê è êúäå ìîãà äà ñè ïëàòÿ ñìåòêàòà çà òîê? Âèæòå ÒÓÊ.</a></strong></p>
+<p><strong><a href="http://www.energo-pro-grid.bg/bg/Grafik-za-otchitane-na-elektroenergiya-Bitovi-klienti" target="_blank">Êîãà îò÷èòàò åëåêòðîìåðà ìè? Ïðîâåðåòå ÒÓÊ.</a></strong></p>
+<p><strong><strong><a href="bg/Grafik-za-plashtane-na-elektroenergia" target="_blank">Êîãà å ìîÿò êðàåí ñðîê çà ïëàùàíå íà ôàêòóðà? Ïðîâåðåòå ÒÓÊ.<br /><br /><br /></a></strong></strong><strong><strong>ÅÍÅÐÃÎ-ÏÐÎ Ïðîäàæáè èçâúðøè ïðîìÿíà íà ñðîêîâåòå çà ïëàùàíå íà ñìåòêèòå çà åëåêòðîåíåðãèÿ </strong></strong><strong><strong>íà ÷àñò îò ñâîèòå êëèåíòè îò àâãóñò 2016 ã. <a href="bg/Grafik-za-plashtane-na-elektroenergia">Ïðîâåðåòå Âàøàòà êðàéíà äàòà çà ïëàùàíå ÒÓÊ.<br /><br /><br /></a></strong></strong>Èíôîðìàöèÿòà å àêòóàëíà êúì<strong> 19.01<strong>.2018 ã.</strong></strong></p>
+
+<form action="/bg/Proverka-na-smetka-za-elektroenergiya" method="post" style="margin-bottom: 15px;">
+    <input type="Text" name="kin" value="1234567890" style="color: #8D8D8D; width: 124px; height: 22px; border: 1px solid #ADADAD; font-size: 12px; padding: 0 0 0 8px; float: left; margin: 5px 6px 0px 0; " onClick="javascript:if(this.value=='Êëèåíòñêè íîìåð')this.value='';">
+    <input type="Image" src="img/search_bg.jpg" style="margin: 6px 0 8px 0; float: left; "><br>
+    <div class="clear"></div>
+</form>
+
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr><th colspan="5">Ñìåòêà çà åëåêòðîåíåðãèÿ</th></tr>
+                <tr>
+                    <td class="h">Êëèåíòñêè<br>íîìåð</td>
+                    <td class="h">Àáîíàòåí<br>íîìåð</td>
+                    <td class="h">Äàòà íà<br>ôàêòóðàòà</td>
+                    <td class="h">Äúëæèìà<br>ñóìà</td>
+                    <td class="h">Ñðîê çà<br>ïëàùàíå</td>
+
+                </tr>
+
+                <tr class="uneven">
+                    <td>1234567890</td>
+                    <td></td>
+                    <td>09.01.2018</td>
+                    <td>44.84</td>
+                    <td>17.01.2018</td>
+
+                </tr>
+
+                <tr>
+                    <td>1234567890</td>
+                    <td></td>
+                    <td>09.02.2018</td>
+                    <td>50.48</td>
+                    <td>17.02.2018</td>
+
+                </tr>
+                </table>
+        </div>
+
+<div class="clear"></div>
+            <div class="clear"></div></div><!--Maincontent-->
+            <div id="footer">
+                <img src="img/footer.jpg" width="940" height="47" style="display: block; margin: 0 auto 10px auto;">
+                <p id="copy">
+                    &copy; 2018 ÅÍÅÐÃÎ-ÏÐÎ. Âñè÷êè ïðàâà çàïàçåíè.              </p>
+                <p id="botlinks">
+                    <a href="bg/Sitemap">Êàðòà íà ñàéòà</a>  <a href="bg/Proverka-na-smetka-za-elektroenergiya">Ïðîâåðêà íà ñìåòêà</a> <a href="bg/Kontakti">Êîíòàêòè</a>               </p><div class="clear"></div>
+            </div>
+        </div>  <!-- Wrap -->
+
+
+                    <!--
+            <script language="JavaScript">
+                jQuery(document).ready(function() {
+                $.fancybox(
+                    '<div id="popupdiv1"><div style="padding: 20px;  background: none repeat scroll 0 0 #ebebeb; border: 1px solid #898989; border-radius: 18px 18px 18px 18px; "><img src="img/pop-up-meter-new.jpg" alt="" width="644" height="442" border="0" usemap="#m1"><map name="m1"><area alt="" coords="346,276,524,294" href="mailto:service@energo-pro.bg"></div></div>',
+                    {
+                        'autoDimensions'    : true,
+                        'padding'           : '0',
+                        'titleShow'         : false,
+                        'hideOnOverlayClick': true,
+                        'showCloseButton'   : true,
+                        'height'            : 'auto',
+                        'overlayOpacity'    : '0.5',
+                        'overlayColor'      : '#000',
+                        //'onComplete': function(){
+                     //   setTimeout( function() {$.fancybox.close(); },3000); // 3000 = 3 secs
+                     // }
+                    }
+                );
+            });
+            </script>-->
+        <!--
+            <script language="JavaScript">
+                jQuery(document).ready(function() {
+                $.fancybox(
+                    '<div id="popupdiv1"><div style="padding: 20px;  background: none repeat scroll 0 0 #EBEBEB; border: 1px solid #898989; border-radius: 18px 18px 18px 18px; "><img src="img/pop-up-new-client2.jpg?k=1" alt="" width="600" height="603" border="0" usemap="#nc"><map name="nc"><area alt="" coords="116,187,521,200" href="http://www.energo-pro.bg/bg/kak-da-stana-klient"><area alt="" coords="54,429,191,445" href="mailto:service@energo-pro.bg"></map></div></div>',
+                    {
+                        'autoDimensions'    : true,
+                        'padding'           : '0',
+                        'titleShow'         : false,
+                        'hideOnOverlayClick': true,
+                        'showCloseButton'   : true,
+                        'height'            : 'auto',
+                        'overlayOpacity'    : '0.5',
+                        'overlayColor'      : '#000'
+                    }
+                );
+            });
+            </script>-->
+        </body>
+</html>
