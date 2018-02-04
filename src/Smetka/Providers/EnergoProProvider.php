@@ -22,16 +22,24 @@ class EnergoProProvider extends AbstractProvider
     {
         $bills = [];
 
+        $options = $this->options;
         $crawler = $this->doRequest();
 
-        $crawler->filter('#content > table tr:nth-child(n+3)')->each(function($node) use (&$bills) {
+        $crawler->filter('#content > table tr:nth-child(n+3)')->each(function($node) use (&$bills, $options) {
             $tdNodes = $node->filter('td');
 
-            $bills[] = [
-                'amount' => $tdNodes->eq(3)->text(),
+            $bill = [
+                'amount' => (float) $tdNodes->eq(3)->text(),
+                'subscriber_number' => $tdNodes->eq(1)->text(),
                 'invoice_date' => $tdNodes->eq(2)->text(),
                 'invoice_due_date' => $tdNodes->eq(4)->text(),
             ];
+
+            if (isset($options['subscriber_number']) && $options['subscriber_number'] != $bill['subscriber_number']) {
+                return;
+            }
+
+            $bills[] = $bill;
         });
 
         return $bills;
